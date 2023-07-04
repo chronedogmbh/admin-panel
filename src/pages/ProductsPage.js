@@ -17,7 +17,7 @@ export default function ProductsPage() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://54.145.8.253:3001/chronedoapi/getallwatches');
+        const response = await fetch('http://54.167.104.231:3001/chronedoapi/getallwatches');
         const data = await response.json();
 
         // Assuming the watches array is in data.watches
